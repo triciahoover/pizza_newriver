@@ -4,6 +4,8 @@ What type of crust would you like with your <%= pizzatype %>?
 <br>
 <form method="post" action="crust">
 	<input type="text" name="crust_type">
+	<input type="hidden" name="first_name" value=<%= first_name %>>
+	<input type="hidden" name="pizzatype" value=<%= pizzatype %>>
 	<br>
 	<br>
 	<input type="submit">
